@@ -333,3 +333,22 @@ function randomize(/* Code here */){
 
 
  /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
+
+
+ /*
+How would you describe preprocessing to someone new to CSS?
+  Preprocessing allows you to write more concise code. It also lets you take repetitive code and replace it with shorthand code reducing the lines of code and even making your code more readable.
+
+What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+  Favorite concept is mixins because it help turns repetitive chunks of code into one.
+  The concept that gives me the most trouble media queries because it feels like more disorganized.
+
+How would you explain the concept of a variable to someone new to programming?
+  A variable is a word that holds information(data) that you assign it.
+
+What is the purpose of using functions in code?
+  Functions allow you to reuse a set of code as many times as you like. Functions help you avoid writing the same several lines of code over and over.
+
+What is a JSON data?
+  Javascript Object Notation, it is a format that is used to organize data. The format can be described as a dataset that has the ability to nest another dataset.
+ */
