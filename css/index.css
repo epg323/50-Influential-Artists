@@ -125,6 +125,18 @@ header nav {
   padding: 2% 4%;
   margin-top: 2%;
 }
+@media (max-width: 800px) {
+  .title-container .title .bttn {
+    font-size: 0.75rem;
+    padding: 1% 2%;
+  }
+}
+@media (max-width: 800px) {
+  .title-container .title {
+    font-size: 2rem;
+    width: 100%;
+  }
+}
 hr {
   border-top: 1px solid;
   width: 80%;

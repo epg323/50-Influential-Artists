@@ -20,6 +20,14 @@ header{
         .centerText();
         .bttn{
             .bttn-prty(black,#FFFFFF);
+            @media @mobile{
+                font-size:.75rem;
+                padding:1% 2%;
+            }
+        }
+        @media @mobile{   
+            font-size:2rem;
+            width:100%;
         }
     }
 }
