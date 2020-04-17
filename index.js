@@ -269,8 +269,8 @@ function lotsOfArt(arr){
 */
 const testobj={
 'id': 21,
-'name': "Esaul", 
-'years': 1995 - 2020,
+'name': 'Esaul', 
+'years': '1995 - 2020',
 'genre': 'Web Design', 
 'nationality': 'american',
 'bio': 'lorem ipsum salt.' };
@@ -279,18 +279,18 @@ function addArtist(arr,info){
     return arr.push(info);
   }
   addArtist(artists,testobj);
-  console.log(artists);
+  console.log("task 8",artists);
 
 
 /* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
 
-function checkArtist(/* Code here */){
+function checkArtist(arr,str){
 
-    /* Code here */
+    return arr.filter(x => x.name === str);
 
   }
 
-
+console.log("task 9",checkArtist(artists,"Esaul"));
 
 
 
