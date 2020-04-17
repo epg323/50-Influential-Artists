@@ -207,12 +207,14 @@ const artists = [
 
 (1) Name of the first artist in the array
 (2) Bio of the third artist in the array */
-
+console.log(artists[0].name)
+console.log(artists[2].bio)
 
 
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 
-
+artists[10].name="Vincent Van Gogh";
+conosole.log(artists[10]);
 
 /* Task 3: Create a function called `getArtistByIndex` that takes two arguments:
  *     (1) artists array
@@ -222,11 +224,11 @@ const artists = [
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-function getArtistByIndex(id, name) {
-    /* code here */
+function getArtistByIndex(arr, ind) {
+    return  `The artist at index ${ind} is ${arr[ind]}.`;
   }
   
-  /**
+  conosole.log( getArtistByIndex(artists,7) );
 
 
 /* Task 4: Create a function called `removeArtist` that takes two arguments:
@@ -237,12 +239,10 @@ function getArtistByIndex(id, name) {
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
-function removeArtist(/*code here*/) {
-    /* code here */
+function removeArtist(arr,indx) {
+    
   }
   
-  /**
-
 
 /* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
 

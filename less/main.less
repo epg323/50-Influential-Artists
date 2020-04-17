@@ -1,0 +1,23 @@
+.artists-container{
+    display: flex;
+    justify-content: space-evenly;
+    @media @mobile{
+        .basicFlex();
+        .artist{
+            margin:2% 0;
+        }
+    }
+    
+    .artist{
+        .basicFlex();
+        width:40%;
+        text-align: center;
+        img{
+            height: 50%;
+            width: 80%;
+            &:hover{
+                opacity:.8;
+            }
+        }
+    }
+}
