@@ -101,7 +101,7 @@ header nav {
   position: relative;
 }
 .title-container img {
-  width: 50%;
+  width: 60%;
 }
 .title-container img:hover {
   opacity: 0.8;
@@ -111,9 +111,11 @@ header nav {
   flex-direction: column;
   align-items: center;
   position: absolute;
+  width: 30%;
+  text-align: center;
   color: white;
   top: 45%;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .title-container .title .bttn {
   color: black;
@@ -121,6 +123,7 @@ header nav {
   font-size: 1.15rem;
   box-shadow: 1px 2px;
   padding: 2% 4%;
+  margin-top: 2%;
 }
 hr {
   border-top: 1px solid;
